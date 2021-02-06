@@ -5,10 +5,11 @@
 
 const fs = require('fs')
 
-let nouns = fs.readFile('nouns.txt', 'utf-8',  (err, data) => {
+let nouns = fs.readFileSync('nouns.txt', 'utf-8',  (err, data) => {
     if (err) throw err;
-
+    
     return data;
 })
 
-console.log(typeof(nouns));
+nouns = nouns.split("\n");
+console.log(nouns);
