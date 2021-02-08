@@ -12,4 +12,22 @@ let nouns = fs.readFileSync('nouns.txt', 'utf-8',  (err, data) => {
 })
 
 nouns = nouns.split("\n");
-console.log(nouns);
+
+let verbs = fs.readFileSync('verbs.txt', 'utf-8',  (err, data) => {
+    if (err) throw err;
+    
+    return data;
+})
+
+verbs = verbs.split("\n");
+
+let adjectives = fs.readFileSync('adjectives.txt', 'utf-8',  (err, data) => {
+    if (err) throw err;
+    
+    return data;
+})
+
+adjectives = adjectives.split("\n");
+
+console.log(verbs);
+
