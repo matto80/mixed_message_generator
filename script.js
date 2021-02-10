@@ -1,7 +1,7 @@
 // a small app to print a randomized message each time it is run.
 
 
-// get list of words from text files
+// get lists of words from text files
 
 const fs = require('fs')
 
@@ -29,5 +29,12 @@ let adjectives = fs.readFileSync('adjectives.txt', 'utf-8',  (err, data) => {
 
 adjectives = adjectives.split("\n");
 
-console.log(verbs);
 
+// print a random string using a word from each list
+
+let n = Math.floor(Math.random() * nouns.length);
+let v = Math.floor(Math.random() * verbs.length);
+let a = Math.floor(Math.random() * adjectives.length);
+
+console.log(`${nouns[n]}, ${verbs[v]}, ${adjectives[a]}`);
+//console.log(nouns);
