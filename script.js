@@ -7,8 +7,8 @@
 //  with minor interactivity built-in.
 //
 //  e.g. user runs program receives greeting message and a question
-//  user responds to question and receives another message and another question
-//  repeats until user enters 'check please'
+//  user responds to question and receives another message (and another question
+//  repeats until user enters 'check please') todo later.
 
 
 // get lists of words from text files
