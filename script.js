@@ -9,6 +9,10 @@
 //  e.g. user runs program receives greeting message and a question
 //  user responds to question and receives another message (and another question
 //  repeats until user enters 'check please') todo later.
+//
+// found useful guidance for the console prompt at https://nodejs.org/en/knowledge/command-line/how-to-prompt-for-command-line-input/
+// learned how to read from a file at https://stackoverflow.com/questions/10058814/get-data-from-fs-readfile
+// reminded how to capitalize the first letter of a string at https://dev.to/haakonhr/capitalize-first-letter-in-javascript-38f7
 
 
 // get lists of words from text files
